@@ -1,6 +1,6 @@
 {
   "name": "fx-rates",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight Node.js library and CLI for real-time mid-market currency exchange rates. 160+ currencies from Refinitiv (Reuters) and interbank feeds via the AllRatesToday API.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
