@@ -1,0 +1,65 @@
+{
+  "name": "fx-rates",
+  "version": "1.0.0",
+  "description": "Lightweight Node.js library and CLI for real-time mid-market currency exchange rates. 160+ currencies from Refinitiv (Reuters) and interbank feeds via the AllRatesToday API.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "fx-rates": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts src/cli.ts --format cjs,esm --dts --clean",
+    "test": "node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "exchange",
+    "currency",
+    "currency-converter",
+    "forex",
+    "fx",
+    "fx-rates",
+    "exchange-rate",
+    "money",
+    "finance",
+    "real-time",
+    "currency-conversion",
+    "mid-market",
+    "refinitiv",
+    "reuters",
+    "allratestoday",
+    "api",
+    "cli"
+  ],
+  "author": "AllRatesToday <support@allratestoday.com> (https://allratestoday.com)",
+  "license": "MIT",
+  "homepage": "https://allratestoday.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cahthuranag/fx-rates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cahthuranag/fx-rates/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  }
+}
