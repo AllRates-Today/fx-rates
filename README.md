@@ -1,5 +1,7 @@
 # 📈 fx-rates
 
+[![Powered by AllRatesToday](https://img.shields.io/badge/Powered%20by-AllRatesToday-orange.svg)](https://allratestoday.com)
+
 [![npm version](https://img.shields.io/npm/v/fx-rates)](https://www.npmjs.com/package/fx-rates)
 [![npm downloads](https://img.shields.io/npm/dm/fx-rates)](https://www.npmjs.com/package/fx-rates)
 [![license](https://img.shields.io/npm/l/fx-rates)](./LICENSE)
