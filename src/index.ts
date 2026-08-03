@@ -2,7 +2,7 @@
  * allratestoday — lightweight currency exchange rates library.
  *
  * Fetches real-time mid-market rates from the AllRatesToday API
- * (Refinitiv / Reuters / interbank feeds, 160+ currencies).
+ * (institutional interbank feeds, 160+ currencies).
  *
  * Basic usage:
  *   import { rate } from "allratestoday";

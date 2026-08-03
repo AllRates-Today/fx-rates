@@ -6,7 +6,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/fx-rates)](https://www.npmjs.com/package/fx-rates)
 [![license](https://img.shields.io/npm/l/fx-rates)](./LICENSE)
 
-Lightweight Node.js library and CLI for **real-time mid-market currency exchange rates** — 160+ currencies sourced from **Refinitiv (Reuters)** and interbank feeds via the [AllRatesToday API](https://allratestoday.com).
+Lightweight Node.js library and CLI for **real-time mid-market currency exchange rates** — 160+ currencies sourced from **institutional interbank market data** and interbank feeds via the [AllRatesToday API](https://allratestoday.com).
 
 - ⚡ **Real-time** rates, not daily snapshots
 - 🌍 **160+ currencies** including majors, emerging-market, precious metals (XAU, XAG)
