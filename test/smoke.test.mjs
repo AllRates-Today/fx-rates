@@ -34,7 +34,7 @@ test("rate() normalizes currency codes to uppercase", async () => {
   let capturedUrl = "";
   const fakeFetch = async (url) => {
     capturedUrl = String(url);
-    return new Response(JSON.stringify({ rate: 1.23, source: "interbank" }), {
+    return new Response(JSON.stringify({ rate: 1.23, source: "mid-market" }), {
       status: 200,
       headers: { "Content-Type": "application/json" },
     });
