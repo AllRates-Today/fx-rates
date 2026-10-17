@@ -1,6 +1,6 @@
 {
   "name": "fx-rates",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Lightweight Node.js library and CLI for real-time mid-market currency exchange rates. 160+ currencies at mid-market rates via the AllRatesToday API.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -43,6 +43,7 @@
     "cli",
     "exchangerate",
     "exchange rate",
+    "exchange rates",
     "currency-api",
     "currency-exchange-rates",
     "forex-api",
